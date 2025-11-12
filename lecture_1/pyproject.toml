@@ -1,0 +1,16 @@
+[project]
+name = "lecture-1"
+version = "0.1.0"
+description = "Python project with colored console output using colorama"
+authors = [
+    {name = "ElizaTTN", email = "work.elizavetatutina@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "colorama>=0.4.6"
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
